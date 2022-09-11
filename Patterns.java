@@ -1,4 +1,4 @@
-class Pattern {
+class Patterns {
     final static int NO_OF_ROWS = 5;
 
     public static void main(String args[]) {
