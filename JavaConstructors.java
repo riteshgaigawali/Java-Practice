@@ -22,13 +22,13 @@ class JavaConstructors {
     } // Second Parameterised Constructor.
 
     JavaConstructors(JavaConstructors jc) {
-        System.out.printf("The value of a from parameterised constructor is %d.", jc.a);
+        System.out.printf("The value of a from parameterised constructor is %d.", jc.c);
     } // Copy Constructor.
 
     public static void main(String args[]) {
         JavaConstructors jc = new JavaConstructors(); // Default Constructor will be aoutomatically called here.
         jc = new JavaConstructors(1, 2); // Calling parameterised constructor.
-        new JavaConstructors(3, 4, 5); // Calling second parameterised constructor.
+        jc=new JavaConstructors(3, 4, 5); // Calling second parameterised constructor.
         new JavaConstructors(jc); // Calling Copy Constructor.
     }
 }
