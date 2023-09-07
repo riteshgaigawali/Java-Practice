@@ -1,5 +1,7 @@
 public class JavaArrays {
     public static void main(String args[]) throws Exception {
+
+        //Simple Array
         System.out.println("1D-Array :=");
         int arr1[] = { 1, 5, 3, 2, 4 };
         for (int i = 0; i < arr1.length; i++)
@@ -7,6 +9,7 @@ public class JavaArrays {
 		
         System.out.println();
 		
+        //2-D Array
         System.out.println("2D-Array :=");
         int[][] arr2 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9, 10 } };
         for (int i = 0; i < arr2.length; i++) {
@@ -17,6 +20,7 @@ public class JavaArrays {
 		
         System.out.println();
 		
+        //3-D Array
         System.out.println("3D-Array :=");
         int[][][] arr3 = { { { 1, 2, 3 }, { 4, 5, 6 } }, { { 7, 8, 9, 10 }, { 11, 12, 13 } },
                 { { 14, 15, 16 }, { 17, 18, 19, 20 } } };
