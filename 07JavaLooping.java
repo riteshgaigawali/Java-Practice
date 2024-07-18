@@ -1,4 +1,4 @@
-public class JavaLooping {
+class JavaLooping {
     public static void main(String[] args) {
         // for loops : program to print all even numbers between 1-50
 
@@ -27,8 +27,8 @@ public class JavaLooping {
         // Nested loop:
 
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 2; j++) {
-                System.out.println(i);
+            for (int j = 0; j < i; j++) {
+                System.out.print(j);
             }
             System.out.println();
         }
