@@ -6,7 +6,7 @@ class Calculator {
 
 }
 
-public class JavaClasses {
+class JavaClasses {
     public static void main(String[] args) {
         Calculator c = new Calculator();
         System.out.println("The addition is " + c.add(5, 6));
