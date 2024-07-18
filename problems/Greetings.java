@@ -22,7 +22,7 @@ class Greetings {
                 System.out.print("Bonjour !");
                 break;
             default:
-                System.out.print("Tuyachigand !");
+                System.out.print("Invalid choice ! Please make a choice between 1-3 only.");
 
         }
     }
