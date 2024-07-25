@@ -10,17 +10,25 @@ public class PrimeNumber {
         int num = sc.nextInt();
         sc.close();
 
-        boolean flag = false;
+        int flag = 0, medium;
 
-        for (int i = 2; i < num; i++) {
-            if (num == 0 || num == 1) {
-                System.out.print("This is not prime number.");
-            } else if (num % i == 0) {
-                flag = true;
+        if (num == 0 || num == 1) {
+            System.out.println("This is not a prime number.");
+        } else {
+            medium = num / 2;
+            for (int i = 2; i <= medium; i++) {
+                if (num % i == 0) {
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 1) {
+                System.out.println("This is not a prime number.");
             } else {
-                flag = false;
+                System.out.println("This is a prime number.");
             }
         }
+
     }
 
 }
