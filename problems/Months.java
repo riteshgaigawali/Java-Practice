@@ -1,3 +1,5 @@
+/* Print month of a year based on user input. */
+
 package problems;
 
 import java.util.*;

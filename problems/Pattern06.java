@@ -1,4 +1,4 @@
-/*Print the following pattern: Inverted Half Peramid
+/*Print the following pattern: Number pyramid
  
     1
     1 2

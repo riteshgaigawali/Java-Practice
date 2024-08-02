@@ -1,3 +1,5 @@
+/* Switch case demonstration program. */
+
 package problems;
 
 import java.util.*;

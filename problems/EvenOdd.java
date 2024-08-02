@@ -1,3 +1,5 @@
+/* Program to check number is even or odd given by user. */
+
 package problems;
 
 import java.util.*;

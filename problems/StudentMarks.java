@@ -1,3 +1,5 @@
+/* While loop demonstrasion program. */
+
 package problems;
 
 import java.util.*;

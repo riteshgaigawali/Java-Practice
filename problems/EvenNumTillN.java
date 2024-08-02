@@ -1,3 +1,5 @@
+/* Print all even numbers till the given range by user. */
+
 package problems;
 
 import java.util.*;

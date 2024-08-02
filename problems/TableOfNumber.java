@@ -1,3 +1,5 @@
+/* Table of number inputed by user using multiple print statements and for loop. */
+
 package problems;
 
 import java.util.*;

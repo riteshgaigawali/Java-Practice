@@ -1,3 +1,5 @@
+/* Sum of numbers from 1 to the range given by user. */
+
 package problems;
 
 import java.util.*;

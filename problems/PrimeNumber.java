@@ -1,3 +1,5 @@
+/* Program to check a number is prime or not inputed by user. */
+
 package problems;
 
 import java.util.*;

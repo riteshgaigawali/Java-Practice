@@ -1,3 +1,5 @@
+/* Program to compare two numbers inputed by user. */
+
 package problems;
 
 import java.util.*;
