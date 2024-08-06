@@ -33,7 +33,7 @@ public class Pattern12 {
             System.out.println();
         }
 
-        System.out.println("Another way :- ");
+        System.out.println("Another way :-");
 
         int n = 5;
         for (int i = 1; i <= n; i++) {
