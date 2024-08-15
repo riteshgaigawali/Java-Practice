@@ -1,3 +1,4 @@
+/*Program to find max of Three given numbers. */
 package problems;
 
 import java.util.*;

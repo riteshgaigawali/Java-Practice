@@ -1,3 +1,5 @@
+/*Program to find if the year is leap or not. */
+
 package problems;
 
 import java.util.*;
@@ -19,18 +21,18 @@ public class LeapYear {
         }
 
         // This is another way :-
-        // if (year % 100 == 0) {
-        // if (year % 400 == 0)
-        // System.out.println("This is a leap year.");
-        // else
-        // System.out.println("This not is a leap year.");
+        if (year % 100 == 0) {
+            if (year % 400 == 0)
+                System.out.println("This is a leap year.");
+            else
+                System.out.println("This not is a leap year.");
 
-        // } else if (year % 4 == 0) {
-        // System.out.println("This is a leap year.");
-        // } else {
-        // System.out.println("This is not a leap year.");
+        } else if (year % 4 == 0) {
+            System.out.println("This is a leap year.");
+        } else {
+            System.out.println("This is not a leap year.");
 
-        // }
+        }
 
     }
 }
