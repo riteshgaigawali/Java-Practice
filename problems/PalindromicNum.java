@@ -1,4 +1,4 @@
-/* Progaram to find if the given number is palindrome or not. */
+/* Progaram to find if the given number is palindrome or not. Ex : 121, 222, 313 */
 package problems;
 
 import java.util.*;
