@@ -15,13 +15,17 @@ public class ArmstrongNum {
 
         int digit, count = 0, temp = num, sum = 0;
 
+        // count number of digits for the power
         while (num > 0) {
             digit = num % 10;
             num = num / 10;
             count++;
         }
+
+        // reinitialize num because of above code the num value is changed to 0
         num = temp;
 
+        // add the power of digits
         while (num > 0) {
             digit = num % 10;
             num = num / 10;
