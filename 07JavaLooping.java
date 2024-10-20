@@ -26,7 +26,9 @@ class JavaLooping {
 
         // Nested loop:
 
+        // outer loop
         for (int i = 1; i < 5; i++) {
+            // inner loop
             for (int j = 0; j <= i; j++) {
                 System.out.print(i + "," + j + "  ");
             }
