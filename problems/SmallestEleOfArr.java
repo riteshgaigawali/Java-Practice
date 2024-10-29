@@ -10,8 +10,7 @@ public class SmallestEleOfArr {
 
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] <= smallestElement) { // check if the next element is smallest or not
-                smallestElement = arr[i]; // if next element is smallest consider that element as smallest and repeat
-                                          // the step utill end of array
+                smallestElement = arr[i];
             }
         }
 
