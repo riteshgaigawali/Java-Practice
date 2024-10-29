@@ -1,3 +1,4 @@
+/* Program to display array elements in reverse order. */
 package problems;
 
 public class ReverseArrEle {
