@@ -1,3 +1,4 @@
+/* Program to Create the Array in Reverse Order. */
 package problems;
 
 public class ReverseArray {
@@ -7,13 +8,12 @@ public class ReverseArray {
         int arr1[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
         int arr2[] = new int[arr1.length];
-        int in = 0;
-        for (int i = arr1.length; i >= 0; i--) {
-            arr2[in] = arr1[i];
-            in++;
-        }
+        int index = arr1.length;
 
-        System.out.println(arr2.length);
+        for (int i = 0; i < arr1.length; i++) {
+            arr2[--index] = arr1[i];
+            System.out.print(arr2[index] + " ");
+        }
 
     }
 }
