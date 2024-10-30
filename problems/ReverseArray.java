@@ -12,7 +12,10 @@ public class ReverseArray {
 
         for (int i = 0; i < arr1.length; i++) {
             arr2[--index] = arr1[i];
-            System.out.print(arr2[index] + " ");
+        }
+
+        for (int j = 0; j < arr2.length; j++) {
+            System.out.print(arr2[j] + " ");
         }
 
     }
